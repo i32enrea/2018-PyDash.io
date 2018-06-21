@@ -72,6 +72,9 @@ def schedule_historic_dashboard_fetching(
         scheduler=scheduler)
 
 
+# Task functions
+
+
 def fetch_and_update_new_dashboard_info(dashboard_id):
     """
     Updates the dashboard with the new EndpointCall information that is fetched from the Dashboard's remote location.
